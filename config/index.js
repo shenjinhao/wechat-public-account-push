@@ -63,9 +63,10 @@ export const USER_CONFIG = {
       // 想要发送的人的名字
       name: "洋洋宝宝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oPE5s5neU08UbmncrySgYtqeEtfw",
+      id: "oPE5s5kCuiz0L5YQGTyzTorkMFC8",
+       id: "oPE5s5neU08UbmncrySgYtqeEtfw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "878ebvFchr5wXNH0V3Pe-QIvxdYJCNis8dNZcfJI-Ho",
+      useTemplateId: "D4SoIXjpfaWDTq-Aef8f9TmeHkJdvU6bGalXHdyLpjk",
       // 所在省份
       province: "广东",
       // 所在城市
@@ -81,7 +82,8 @@ export const USER_CONFIG = {
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
        
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "生日", "name": "宝贝", "year": "2000", "date": "03-03"},
+        {"type": "生日", "name": "宝贝", "year": "2000", "date": "03-03"},/n
+        
         {"type": "节日", "name": "恋爱纪念日", "year": "2017", "date": "11-19"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
@@ -148,6 +150,9 @@ export const USER_CONFIG = {
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oPE5s5neU08UbmncrySgYtqeEtfw",
+      name:"宝贝",
+      id: "oPE5s5kCuiz0L5YQGTyzTorkMFC8",
+     
     },
     // 你可以不断按格式往下增加
     // ...
